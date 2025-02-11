@@ -4,5 +4,6 @@ mpi:
 double:
   - no
   - yes
-cuda_compiler_version_min:
-  - 12.1                       # [linux or win64]
+cuda:
+  - no
+  - yes
