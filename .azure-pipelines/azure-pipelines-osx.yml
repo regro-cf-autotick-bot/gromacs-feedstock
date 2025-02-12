@@ -56,7 +56,6 @@ jobs:
         CONFIG: osx_arm64_cudayesdoubleyesmpinompi
         UPLOAD_PACKAGES: 'True'
         SHORT_CONFIG: osx_arm64_cudayesdoubleyesmpinompi
-    maxParallel: 12
   timeoutInMinutes: 360
   variables: {}
 

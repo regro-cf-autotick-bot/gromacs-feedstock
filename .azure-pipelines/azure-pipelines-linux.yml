@@ -48,26 +48,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
         SHORT_CONFIG: linux_64_cudanocuda_compilercuda-nv_h14dca1ccc4
-      linux_64_cudanocuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doublenompinompi:
-        CONFIG: linux_64_cudanocuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doublenompinompi
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8
-        SHORT_CONFIG: linux_64_cudanocuda_compilernvcccud_h54bdd79146
-      linux_64_cudanocuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doublenompiopenmpi:
-        CONFIG: linux_64_cudanocuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doublenompiopenmpi
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8
-        SHORT_CONFIG: linux_64_cudanocuda_compilernvcccud_h502f4992a9
-      linux_64_cudanocuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doubleyesmpinompi:
-        CONFIG: linux_64_cudanocuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doubleyesmpinompi
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8
-        SHORT_CONFIG: linux_64_cudanocuda_compilernvcccud_h140d6504e8
-      linux_64_cudanocuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doubleyesmpiopenmpi:
-        CONFIG: linux_64_cudanocuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doubleyesmpiopenmpi
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8
-        SHORT_CONFIG: linux_64_cudanocuda_compilernvcccud_h525155defc
       linux_64_cudayescuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13doublenompinompi:
         CONFIG: linux_64_cudayescuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13doublenompinompi
         UPLOAD_PACKAGES: 'True'
@@ -108,26 +88,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
         SHORT_CONFIG: linux_64_cudayescuda_compilercuda-n_hb6bc9acf1c
-      linux_64_cudayescuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doublenompinompi:
-        CONFIG: linux_64_cudayescuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doublenompinompi
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8
-        SHORT_CONFIG: linux_64_cudayescuda_compilernvcccu_h017df2af67
-      linux_64_cudayescuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doublenompiopenmpi:
-        CONFIG: linux_64_cudayescuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doublenompiopenmpi
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8
-        SHORT_CONFIG: linux_64_cudayescuda_compilernvcccu_hfdb94904d7
-      linux_64_cudayescuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doubleyesmpinompi:
-        CONFIG: linux_64_cudayescuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doubleyesmpinompi
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8
-        SHORT_CONFIG: linux_64_cudayescuda_compilernvcccu_h4578a4d693
-      linux_64_cudayescuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doubleyesmpiopenmpi:
-        CONFIG: linux_64_cudayescuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11doubleyesmpiopenmpi
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8
-        SHORT_CONFIG: linux_64_cudayescuda_compilernvcccu_h11b6e6b2b4
       linux_aarch64_cudanocuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13doublenompinompi:
         CONFIG: linux_aarch64_cudanocuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13doublenompinompi
         UPLOAD_PACKAGES: 'True'
@@ -208,7 +168,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
         SHORT_CONFIG: linux_ppc64le_cudayescuda_compilerN_h6b7430b8dc
-    maxParallel: 38
   timeoutInMinutes: 360
   variables: {}
 
