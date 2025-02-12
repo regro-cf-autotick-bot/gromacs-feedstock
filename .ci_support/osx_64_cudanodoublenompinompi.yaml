@@ -12,8 +12,6 @@ channel_targets:
 - conda-forge main
 cuda:
 - 'no'
-cuda_compiler:
-- None
 cuda_compiler_version:
 - None
 cxx_compiler:

@@ -293,34 +293,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_cudayesdoublenompinompi</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15655&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gromacs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_cudayesdoublenompinompi" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_cudayesdoublenompiopenmpi</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15655&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gromacs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_cudayesdoublenompiopenmpi" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_cudayesdoubleyesmpinompi</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15655&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gromacs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_cudayesdoubleyesmpinompi" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_cudayesdoubleyesmpiopenmpi</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15655&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gromacs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_cudayesdoubleyesmpiopenmpi" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_arm64_cudanodoublenompinompi</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15655&branchName=main">
@@ -332,20 +304,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15655&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gromacs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_cudanodoubleyesmpinompi" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_cudayesdoublenompinompi</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15655&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gromacs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_cudayesdoublenompinompi" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_cudayesdoubleyesmpinompi</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15655&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gromacs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_cudayesdoubleyesmpinompi" alt="variant">
                 </a>
               </td>
             </tr>

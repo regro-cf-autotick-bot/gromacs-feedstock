@@ -24,22 +24,6 @@ jobs:
         CONFIG: osx_64_cudanodoubleyesmpiopenmpi
         UPLOAD_PACKAGES: 'True'
         SHORT_CONFIG: osx_64_cudanodoubleyesmpiopenmpi
-      osx_64_cudayesdoublenompinompi:
-        CONFIG: osx_64_cudayesdoublenompinompi
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: osx_64_cudayesdoublenompinompi
-      osx_64_cudayesdoublenompiopenmpi:
-        CONFIG: osx_64_cudayesdoublenompiopenmpi
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: osx_64_cudayesdoublenompiopenmpi
-      osx_64_cudayesdoubleyesmpinompi:
-        CONFIG: osx_64_cudayesdoubleyesmpinompi
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: osx_64_cudayesdoubleyesmpinompi
-      osx_64_cudayesdoubleyesmpiopenmpi:
-        CONFIG: osx_64_cudayesdoubleyesmpiopenmpi
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: osx_64_cudayesdoubleyesmpiopenmpi
       osx_arm64_cudanodoublenompinompi:
         CONFIG: osx_arm64_cudanodoublenompinompi
         UPLOAD_PACKAGES: 'True'
@@ -48,14 +32,6 @@ jobs:
         CONFIG: osx_arm64_cudanodoubleyesmpinompi
         UPLOAD_PACKAGES: 'True'
         SHORT_CONFIG: osx_arm64_cudanodoubleyesmpinompi
-      osx_arm64_cudayesdoublenompinompi:
-        CONFIG: osx_arm64_cudayesdoublenompinompi
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: osx_arm64_cudayesdoublenompinompi
-      osx_arm64_cudayesdoubleyesmpinompi:
-        CONFIG: osx_arm64_cudayesdoubleyesmpinompi
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: osx_arm64_cudayesdoubleyesmpinompi
   timeoutInMinutes: 360
   variables: {}
 
