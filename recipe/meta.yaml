@@ -20,6 +20,8 @@ build:
   skip: true  # [win]
   skip: true  # [mpi == "openmpi" and arm64]
   skip: true  # [double == "yes" and cuda_compiler_version != "None"]
+  skip: true  # [cuda == "no" and cuda_compiler_version != "None"]
+  skip: true  # [cuda == "yes" and osx]
   skip: true  # [cuda_compiler_version != "None" and float(cuda_compiler_version) < 12.1]
 
   # fails with: /usr/local/cuda/lib64/libcudart_static.a: error adding symbols: file in wrong format
