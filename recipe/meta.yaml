@@ -20,6 +20,7 @@ build:
   skip: true  # [win]
   skip: true  # [mpi == "openmpi" and arm64]
   skip: true  # [double == "yes" and cuda_compiler_version != "None"]
+  skip: true  # [cuda == "yes" and cuda_compiler_version < 12.1]
 
   # fails with: /usr/local/cuda/lib64/libcudart_static.a: error adding symbols: file in wrong format
   skip: true  # [(aarch64 or ppc64le) and double == "no" and cuda_compiler_version != "None"]
@@ -29,7 +30,7 @@ requirements:
     - make
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
-    - {{ compiler('cuda') }} >=12.1  # [cuda == "yes"]
+    - {{ compiler('cuda') }}  # [cuda == "yes"]
     - {{ stdlib("c") }}
     - cmake >=3.28
     - pocl
