@@ -3,7 +3,7 @@
 # https://manual.gromacs.org/documentation/
 {% set name = "gromacs" %}
 {% set version = "2026.3" %}
-{% set build = 0 %}
+{% set build = 1 %}
 {% set build = build + 100 %}  # [mpi == 'nompi' and double == 'no' and cuda_compiler_version == "None"]
 
 package:
@@ -79,9 +79,9 @@ about:
   license_file: COPYING
   summary: GROMACS is a versatile package to perform molecular dynamics.
   description: |
-    GROMACS is a versatile package to perform molecular dynamics, i.e. 
-    simulate the Newtonian equations of motion for systems with hundreds 
-    to millions of particles. It is primarily designed for biochemical 
+    GROMACS is a versatile package to perform molecular dynamics, i.e.
+    simulate the Newtonian equations of motion for systems with hundreds
+    to millions of particles. It is primarily designed for biochemical
     molecules like proteins, lipids and nucleic acids that have a lot of
     complicated bonded interactions, but since GROMACS is extremely fast
     at calculating the nonbonded interactions (that usually dominate
